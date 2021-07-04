@@ -44,8 +44,8 @@ namespace IracingConfigSwitcher
             }
         }
 
-        public string LabelContent => $"Current config: {Name()}";
-        public string ButtonContent => $"Load {Name(true)}";
+        public string LabelContent => $"Current config: {Name()}".ToUpper();
+        public string ButtonContent => $"Load {Name(true)}".ToUpper();
 
         private void backupCurrentConfig(string baseName)
         {

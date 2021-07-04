@@ -6,7 +6,16 @@
     <RootNamespace>IracingConfigSwitcher</RootNamespace>
     <UseWPF>true</UseWPF>
     <AssemblyName>IracingConfigSwitcher</AssemblyName>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">
