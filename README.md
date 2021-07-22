@@ -4,7 +4,7 @@ Allow Iracing configuration switching between a default (VR?) and an alternative
 
 Manage `app.ini` and `rendererDX11.ini` files.
 
-![Screenshot](screenshot.png)
+<img src="https://github.com/yvon/iRacingReplayControl/raw/master/screenshot.png" width="210"/>
 
 # Getting started
 
